@@ -2,7 +2,7 @@
 namespace ns{
     class Square{
     public:
-        Square(int a); // Custom default ctor
+        Square(int a); // One argument ctor
         void setLength(double len);
         double getLength();
     private:
